@@ -26,6 +26,7 @@ const MessageField = ({ name, setText, text }) => {
     setIsComposed(false);
   }}
   value={text}
+  autoFocus={true}
 />;
 }
 
